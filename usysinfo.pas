@@ -18,9 +18,7 @@ uses
   , LazUTF8
   {$IF DEFINED(UNIX)}
   , BaseUnix
-  {$IFNDEF DARWIN}
   , users
-  {$ENDIF}
     {$IFDEF DARWIN}
     , MacOSAll
     {$ENDIF}
@@ -501,8 +499,6 @@ var
 {$ENDIF}
 begin
   Result := '';
-  {$IFDEF DARWIN}
-  {$ELSE}
   {$IFDEF UNIX}
   {$IF (DEFINED(LINUX)) OR (DEFINED(FREEBSD))}
    //GetUsername in unit Users, fpgetuid in unit BaseUnix
@@ -539,7 +535,6 @@ begin
   end;
   {$ENDIF WINDOWS}
   {$ENDIF UNIX}
-  {$ENDIF DARWIN}
 end;
 
 end.
