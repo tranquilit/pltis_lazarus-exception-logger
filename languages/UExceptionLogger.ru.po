@@ -43,10 +43,6 @@ msgstr "Во время выполнения программы произошла ошибка:"
 
 #: uexceptionlogger.serrorreportfilenotcrearted
 msgid "Report file not created"
-msgstr "Файл отчета не создан"
-
-#: uexceptionlogger.serrorreportfilenotcrearted
-msgid "Report file not created"
 msgstr ""
 
 #: uexceptionlogger.sexceptionclass
