@@ -16,6 +16,7 @@ uses
   ;
 
 function GetAppVersion: string;
+function GetAppTitle: string;
 
 implementation
 
@@ -29,6 +30,26 @@ begin
     try
       FileVerInfo.ReadFileInfo;
       Result := FileVerInfo.VersionStrings.Values['FileVersion'];
+      Exit;
+    except
+      on E: EResNotFound do
+        Exit;
+    end;
+  finally
+    FileVerInfo.Free;
+  end;
+end;
+
+function GetAppTitle: string;
+var
+  FileVerInfo: TFileVersionInfo;
+begin
+  Result := '';
+  FileVerInfo:=TFileVersionInfo.Create(nil);
+  try
+    try
+      FileVerInfo.ReadFileInfo;
+      Result := FileVerInfo.VersionStrings.Values['FileDescription'];
       Exit;
     except
       on E: EResNotFound do

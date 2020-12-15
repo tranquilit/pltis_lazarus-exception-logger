@@ -1,0 +1,131 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: uconsoleexceptionlogger.saddress
+msgid "Address"
+msgstr ""
+
+#: uconsoleexceptionlogger.sapplicationtitle
+msgid "App. title"
+msgstr ""
+
+#: uconsoleexceptionlogger.sbuildtarget
+msgid "Build target"
+msgstr ""
+
+#: uconsoleexceptionlogger.scallstack
+msgid "Call stack"
+msgstr ""
+
+#: uconsoleexceptionlogger.sclass
+msgid "Class"
+msgstr ""
+
+#: uconsoleexceptionlogger.sclose
+msgid "Continue"
+msgstr ""
+
+#: uconsoleexceptionlogger.scompileddate
+msgid "Compiled date"
+msgstr ""
+
+#: uconsoleexceptionlogger.scurrentdiskfreespacesize
+msgid "free disk space"
+msgstr ""
+
+#: uconsoleexceptionlogger.sdetails
+msgid "Details"
+msgstr ""
+
+#: uconsoleexceptionlogger.serroroccured
+msgid "Error occured during program execution:"
+msgstr ""
+
+#: uconsoleexceptionlogger.serrorreportfilenotcrearted
+msgid "Report file not created"
+msgstr ""
+
+#: uconsoleexceptionlogger.sexceptionclass
+msgid "Exception class"
+msgstr ""
+
+#: uconsoleexceptionlogger.sexceptionhandlercannotbesynchronized
+msgid "Exception handler cannot be synchronized with main thread."
+msgstr ""
+
+#: uconsoleexceptionlogger.sexceptioninfo
+msgid "Exception info"
+msgstr ""
+
+#: uconsoleexceptionlogger.sexceptionmessage
+msgid "Exception message"
+msgstr ""
+
+#: uconsoleexceptionlogger.sexename
+msgid "Executable"
+msgstr ""
+
+#: uconsoleexceptionlogger.sgeneral
+msgid "General"
+msgstr ""
+
+#: uconsoleexceptionlogger.signorenexttime
+msgid "Skip this exception next"
+msgstr ""
+
+#: uconsoleexceptionlogger.sindex
+msgid "Index"
+msgstr ""
+
+#: uconsoleexceptionlogger.slclversion
+msgid "LCL version"
+msgstr ""
+
+#: uconsoleexceptionlogger.sline
+msgid "Line"
+msgstr ""
+
+#: uconsoleexceptionlogger.soperatingsystem
+msgid "Operating system"
+msgstr ""
+
+#: uconsoleexceptionlogger.sproceduremethod
+msgid "Procedure/method"
+msgstr ""
+
+#: uconsoleexceptionlogger.sprocessid
+msgid "Process ID"
+msgstr ""
+
+#: uconsoleexceptionlogger.sprogramuptime
+msgid "program up time"
+msgstr ""
+
+#: uconsoleexceptionlogger.sreporttime
+msgid "Date/time"
+msgstr ""
+
+#: uconsoleexceptionlogger.sterminate
+msgid "Exit program"
+msgstr ""
+
+#: uconsoleexceptionlogger.sthreadid
+msgid "Thread ID"
+msgstr ""
+
+#: uconsoleexceptionlogger.sunit
+msgid "Unit"
+msgstr ""
+
+#: uconsoleexceptionlogger.susername
+msgid "user name"
+msgstr ""
+
+#: uconsoleexceptionlogger.sversion
+msgid "Version"
+msgstr ""
+
+#: uconsoleexceptionlogger.swidgetset
+msgid "Widget set"
+msgstr ""
+

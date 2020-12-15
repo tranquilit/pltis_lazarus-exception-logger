@@ -21,24 +21,28 @@
     <Description Value="Component for detailed exception debugging."/>
     <License Value="GNU/GPL"/>
     <Version Major="1" Minor="2"/>
-    <Files Count="4">
+    <Files Count="5">
       <Item1>
         <Filename Value="UStackTrace.pas"/>
         <UnitName Value="UStackTrace"/>
       </Item1>
       <Item2>
-        <Filename Value="UExceptionForm.pas"/>
-        <UnitName Value="UExceptionForm"/>
+        <Filename Value="CustomLineInfo.pas"/>
+        <UnitName Value="CustomLineInfo"/>
       </Item2>
       <Item3>
+        <Filename Value="uconsoleexceptionlogger.pas"/>
+        <UnitName Value="UConsoleExceptionLogger"/>
+      </Item3>
+      <Item4>
         <Filename Value="UExceptionLogger.pas"/>
         <HasRegisterProc Value="True"/>
         <UnitName Value="UExceptionLogger"/>
-      </Item3>
-      <Item4>
-        <Filename Value="CustomLineInfo.pas"/>
-        <UnitName Value="CustomLineInfo"/>
       </Item4>
+      <Item5>
+        <Filename Value="UExceptionForm.pas"/>
+        <UnitName Value="UExceptionForm"/>
+      </Item5>
     </Files>
     <i18n>
       <EnableI18N Value="True"/>

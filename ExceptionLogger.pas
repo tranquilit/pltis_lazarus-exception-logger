@@ -8,8 +8,8 @@ unit ExceptionLogger;
 interface
 
 uses
-  UStackTrace, UExceptionForm, UExceptionLogger, CustomLineInfo, 
-  LazarusPackageIntf;
+  UStackTrace, CustomLineInfo, UConsoleExceptionLogger, UExceptionLogger, 
+  UExceptionForm, LazarusPackageIntf;
 
 implementation
 
