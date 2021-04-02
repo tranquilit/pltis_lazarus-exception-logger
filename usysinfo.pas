@@ -18,9 +18,10 @@ uses
   , LazUTF8
   {$IF DEFINED(UNIX)}
   , BaseUnix
-  , users
     {$IFDEF DARWIN}
     , MacOSAll
+    {$ELSE}
+    , users
     {$ENDIF}
   {$ENDIF}
   {$IFDEF LCLQT}
