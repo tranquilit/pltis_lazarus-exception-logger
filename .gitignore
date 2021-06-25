@@ -29,3 +29,7 @@ lib/
 # Application bundle for Mac OS
 *.app/
 /demo/bugreport.txt
+
+
+# python cache files 
+*.pyc
