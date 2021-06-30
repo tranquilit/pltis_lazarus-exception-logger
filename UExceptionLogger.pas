@@ -10,12 +10,12 @@ uses
   , UStackTrace
   , CustomLineInfo
   , Forms
-  {.$if FPC_FULlVERSION>=30002}
-  {.$ifopt D+}
+  {$if FPC_FULlVERSION>=30002}
+  {$ifopt D+}
   , lineinfo
-  {.$ENDIF}
+  {$ENDIF}
   // enable Debugging - Display line info... (-gl)
-  {.$endif}
+  {$endif}
   ;
 
 type
