@@ -57,7 +57,10 @@ Uses
 
 Function GetWidgetSet: String;
 Begin
-  Result := LCLPlatformDisplayNames[WidgetSet.LCLPlatform];
+  if Assigned(WidgetSet) then
+    Result := LCLPlatformDisplayNames[WidgetSet.LCLPlatform]
+  else
+    Result := 'Console';
 End;
 
 Function GetCompilerInfo: String;

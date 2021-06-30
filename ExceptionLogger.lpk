@@ -17,6 +17,17 @@
           <SyntaxMode Value="Delphi"/>
         </SyntaxOptions>
       </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <DebugInfoType Value="dsDwarf3"/>
+        </Debugging>
+      </Linking>
     </CompilerOptions>
     <Description Value="Component for detailed exception debugging."/>
     <License Value="GNU/GPL"/>
