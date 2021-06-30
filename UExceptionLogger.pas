@@ -11,9 +11,9 @@ uses
   , CustomLineInfo
   , Forms
   {$if FPC_FULlVERSION>=30002}
-  {$ifopt D+}
+  {.$ifopt D+}
   , lineinfo
-  {$ENDIF}
+  {.$ENDIF}
   // enable Debugging - Display line info... (-gl)
   {$endif}
   ;

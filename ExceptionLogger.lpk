@@ -25,8 +25,7 @@
       </CodeGeneration>
       <Linking>
         <Debugging>
-          <GenerateDebugInfo Value="False"/>
-          <DebugInfoType Value="dsDwarf3"/>
+          <DebugInfoType Value="dsDwarf2"/>
         </Debugging>
       </Linking>
     </CompilerOptions>
